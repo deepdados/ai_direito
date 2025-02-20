@@ -186,12 +186,22 @@ section h2 {
 /* ------------------------------------------------------
    Target Section
 ------------------------------------------------------ */
+#target {
+  text-align: center;
+}
+
 #target ul {
   list-style: none;
-  margin: 0 auto;
-  text-align: center; /* Centraliza os itens da lista */
+  display: inline-block; /* Centraliza o bloco da lista */
+  text-align: left; /* Mantém o texto dos itens alinhado à esquerda dentro do bloco */
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-top: 20px;
+}
+
+#target li {
+  text-align: center; /* Opcional: centraliza o texto de cada item */
+  margin-bottom: 10px;
 }
 
 /* ------------------------------------------------------
